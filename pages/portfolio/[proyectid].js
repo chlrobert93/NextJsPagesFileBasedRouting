@@ -1,6 +1,8 @@
 import { useRouter } from "next/router";
 
 function PorfolioProjectPage() {
+
+  //Devuelve un obejcto
   const router = useRouter();
 
   console.log(router.pathname);
