@@ -1,20 +1,19 @@
-import { useRouter } from "next/router";
+import { useRouter } from 'next/router';
 
 function PorfolioProjectPage() {
-
   //Devuelve un obejcto
   const router = useRouter();
 
-  console.log(router.pathname);
-  console.log(router.query);
+  /* console.log(router.pathname);
+  console.log(router.query); */
 
   /*enviar una solicitud a algún servidor backend
 para recuperar el dato con un id de*/
-    return (
-        <div>
-            <h1>The Porfolio Proyect Page</h1>
-        </div>
-    );
+  return (
+    <div>
+      <h1>The Porfolio Proyect Page</h1>
+    </div>
+  );
 }
 
 export default PorfolioProjectPage;
